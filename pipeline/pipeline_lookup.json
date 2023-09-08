@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "old_Lookup",
+				"name": "LookupOldWaterMarkActivity",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -27,7 +27,7 @@
 				}
 			},
 			{
-				"name": "new_Lookup",
+				"name": "LookupNewWaterMarkActivity",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -56,13 +56,13 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "old_Lookup",
+						"activity": "LookupOldWaterMarkActivity",
 						"dependencyConditions": [
 							"Completed"
 						]
 					},
 					{
-						"activity": "new_Lookup",
+						"activity": "LookupNewWaterMarkActivity",
 						"dependencyConditions": [
 							"Completed"
 						]
