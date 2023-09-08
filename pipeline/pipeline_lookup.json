@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Lookup1",
+				"name": "old_Lookup",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -27,7 +27,7 @@
 				}
 			},
 			{
-				"name": "Lookup 2_copy1",
+				"name": "new_Lookup",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
